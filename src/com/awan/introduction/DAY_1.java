@@ -58,7 +58,7 @@ class Student{
 
 
 
-public class Main{
+public class DAY_1{
 
 
     public static void main(String[] args) {
@@ -100,6 +100,12 @@ public class Main{
         // System.out.println("awans roll number is " + awan.rno);
         // System.out.println("awans name is " + awan.name);
         // System.out.println("awans marks is " + awan.marks);
+
+        Student one = new Student();
+        Student two = one;
+        one.name = "something";
+        System.out.println(two.name);
+
 
         
 
